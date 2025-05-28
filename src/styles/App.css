@@ -1,0 +1,32 @@
+:root {
+    --primary-blue: #3182ce;
+    --light-blue: #ebf8ff;
+    --success-green: #48bb78;
+    --warning-red: #f56565;
+    --text-dark: #2d3748;
+    --text-medium: #4a5568;
+    --text-light: #718096;
+    --text-very-light: #a0aec0;
+    --bg-light: #f5f7fa;
+    --white: #ffffff;
+  }
+  
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .app-container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background-color: var(--bg-light);
+  }
+  
+  .main-content {
+    display: flex;
+    flex: 1;
+    overflow: hidden;
+  }

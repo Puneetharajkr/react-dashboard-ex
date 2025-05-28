@@ -1,0 +1,52 @@
+.anatomy-container {
+    flex: 1;
+    padding: 15px;
+    background-color: rgb(226, 242, 203);
+    border-radius:10px;
+  }
+  
+  .anatomy-image-wrapper {
+    position: relative;
+    height: 78%;
+    display: flex;
+    justify-content: center;
+    background-color: #3cf0d8;
+    border-radius: 8px;
+    width:100%;
+  }
+  
+  .anatomy-image {
+    height: 100%;
+    object-fit: contain;
+    padding: 20px;
+    width:100%;
+  }
+  
+  
+  .marker {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .marker-dot {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    margin-bottom: 5px;
+  }
+  
+  .marker-dot.healthy {
+    background-color: var(--success-green);
+  }
+  
+  .marker-dot.warning {
+    background-color: var(--warning-red);
+  }
+  
+  .marker-label {
+    font-size: 12px;
+    color: var(--text-medium);
+    white-space: nowrap;
+  }
